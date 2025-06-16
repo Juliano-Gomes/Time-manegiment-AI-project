@@ -1,0 +1,38 @@
+{
+  "name": "IA-predict",
+  "version": "1.0.0",
+  "description": "just a predict project",
+  "main": "src/server.ts",
+  "author": "julien_007",
+  "scripts": {
+    "predict": "tsx --watch src/server.ts",
+    "Ia": "tsx --watch src/prediction/index.ts",
+    "test": "tsx --watch src/prediction/server.save.model.ts",
+    "t": "tsx --watch test2.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.15.29",
+    "@types/pg": "^8.15.4",
+    "tsc": "^2.0.4",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "@types/cors": "^2.8.18",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "pg": "^8.16.0",
+    "seedrandom": "^3.0.5",
+    "zod": "^3.25.55"
+  }
+}
